@@ -333,6 +333,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "ink-playground"
+version = "0.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "instant",
+ "log",
+ "ra_ap_ide",
+ "ra_ap_ide_db",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_repr",
+ "stacker",
+ "wasm-bindgen",
+ "wasm-bindgen-rayon",
+]
+
+[[package]]
 name = "instant"
 version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1436,23 +1453,6 @@ name = "wasm-bindgen-shared"
 version = "0.2.72"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b7148f4696fb4960a346eaa60bbfb42a1ac4ebba21f750f75fc1375b098d5ffa"
-
-[[package]]
-name = "wasm_demo"
-version = "0.1.0"
-dependencies = [
- "console_error_panic_hook",
- "instant",
- "log",
- "ra_ap_ide",
- "ra_ap_ide_db",
- "serde",
- "serde-wasm-bindgen",
- "serde_repr",
- "stacker",
- "wasm-bindgen",
- "wasm-bindgen-rayon",
-]
 
 [[package]]
 name = "web-sys"

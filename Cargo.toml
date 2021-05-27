@@ -1,7 +1,7 @@
 [package]
-name = "wasm_demo"
+name = "ink-playground"
 version = "0.1.0"
-authors = ["rust-analyzer developers"]
+authors = ["rust-analyzer developers", "Achim Schneider"]
 edition = "2018"
 
 [lib]

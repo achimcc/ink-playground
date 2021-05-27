@@ -1,11 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom";
-
-const App = () => <h1>Ink Playground Editor</h1>;
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Editor from './components/Editor';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Editor language="rust" />
   </React.StrictMode>,
-  document.getElementById("container")
+  document.getElementById('container')
 );
